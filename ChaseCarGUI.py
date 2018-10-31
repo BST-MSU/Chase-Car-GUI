@@ -40,9 +40,9 @@ def create_and_show_gui(style, palette, handle):
     top_bar_layout.addWidget(car_speed)
     top_bar_layout.addWidget(car_power)
     top_bar_layout.addWidget(car_capacity)
-    top_bar_layout.addWidget(car_solar_power)
-    top_bar_layout.addWidget(car_efficiency)
     top_bar_layout.addWidget(car_range_left)
+    top_bar_layout.addWidget(car_efficiency)
+    top_bar_layout.addWidget(car_solar_power)
     '''########################## End Top Bar ###########################'''
     main_layout.addWidget(top_bar, 1, 1)
 
